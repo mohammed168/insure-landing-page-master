@@ -1,0 +1,594 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Karla;
+}
+p{
+    color: hsl(273, 4%, 51%);
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    margin: auto;
+    width: 100%;
+    max-width: 80%;
+    
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: hsl(273, 4%, 51%);
+    padding: 50px;
+    font-size: 15px;
+    transition: 0.3s;
+}
+nav ul li a:hover{
+    color: #000;
+}
+nav ul .bord{
+    border: solid 2px #000;
+    padding: 5px 30px;
+}
+nav ul .bord:hover{
+    color: #fff;
+    background-color: hsl(256, 26%, 20%);
+}
+nav h1{
+    font-size: 20px;
+}
+.navmop{
+    display: block;
+    height: 700px;
+    
+    background-color:  hsl(256, 26%, 20%);
+    position: relative;
+
+}
+.navmop ul{
+    padding-top:40px ;
+    text-align: center;
+    
+
+}
+.navmop ul li{
+    padding: 30px 50px;
+    list-style: none;
+}
+.navmop ul li a{
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+.navmop .close{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 500px;
+}
+.navmop ul .bord{
+    border: solid 2px #fff;
+    padding: 15px 130px;
+}
+
+
+/* @@@@@@@@@@@@@@@@@@@@@@@ */
+#hero{
+    height: 100vh;
+    background-color: hsl(256, 26%, 20%);
+    position: relative;
+
+}
+#hero .contenar{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    background-color: hsl(256, 26%, 20%);
+    
+}
+.text{
+    width: 50%;
+    padding-top: 200px;
+}
+.text h2{
+    color: #fff;
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+.text p{
+    font-size: 15px;
+    line-height: 25px;
+    padding-bottom: 40px;
+    color: #fff;
+}
+.text a{
+    padding: 12px 30px;
+    background-color: hsl(256, 26%, 20%);
+    border: 1px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.text a:hover{
+    background-color: #fff;
+    color: #000;
+}
+.imgs{
+   position: absolute;
+   top: 0;
+   right: 0;
+}
+.images .des{
+    position: relative;
+    top: 200px;
+}
+
+
+
+/* @@@@@@@@@@@@@@@@ */
+#diferant{
+    height: 190vh;
+    
+}
+#diferant .image{
+    width: 500px;
+    height: 380px;
+    
+    
+}
+.image img{
+    position: absolute;
+    top: 600px;
+}
+#diferant .contenar{
+    width: 80%;
+    margin: auto;
+    /* background-color: antiquewhite; */
+    
+}
+.contentt h2{
+    font-size: 60px;
+    padding-bottom: 80px;
+}
+.service{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+.sup{
+    width: 300px;
+    padding-bottom: 100px;
+}
+.sup img{
+    padding-bottom: 40px;
+}
+.sup h3{
+    font-size: 25px;
+    padding-bottom: 20px
+}
+.sup p{
+    line-height: 25px;
+}
+.find{
+    background-color: hsl(256, 26%, 20%);
+    height: 250px;
+    position: relative;
+}
+.findtext{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 80px;
+}
+.find h2{
+    font-size: 40px;
+    color: #fff;
+}
+.find a{
+    padding: 10px 20px;
+    color: #fff;
+    border: 1px solid #fff;
+    text-decoration: none;
+    background-color: hsl(256, 26%, 20%);
+    z-index: 1;
+    transition: 0.3s;
+}
+.find a:hover{
+    background-color: #fff;
+    color: #000;
+}
+.find img{
+    position: absolute;
+    right: 0;
+}
+footer{
+    position: relative;
+    background-color: hsl(0, 0%, 98%);
+    height: 50vh;
+    padding-top: 50px;
+    text-transform: uppercase;
+}
+footer .contaner{
+    width: 80%;
+    margin: auto;
+    display: block;
+    z-index:1; 
+}
+footer .contaner .des{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+footer .icons svg{
+    margin: 0 10px;
+}
+footer .fhead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+footer .orl{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .orl ol{
+    padding: 30px;
+}
+footer .orl ol p{
+    padding-bottom: 20px;
+    color: hsl(273, 4%, 51%);
+
+}
+footer .orl ol li{
+    line-height: 30px;
+    list-style: none;
+    transition: 0.3s;
+}
+footer .orl ol li a{
+    text-decoration: none;
+    color: #000;
+    
+}
+footer .orl ol li:hover{
+    text-decoration: underline;
+}
+.hide{
+    display: none;
+}
+@media (min-width:950px){
+    .navmop , .close , .hum{
+        display: none;
+    }
+} 
+    
+
+@media (max-width: 375px){
+    .navmop{
+        display: none;
+    }
+    .head nav ul{
+        display: none;
+    }
+    .head nav .hum{
+        display: block;
+    }
+    .images .des{
+        display: none;
+    }
+    .images .mop{
+        display: block;
+        width: 483px;
+    }
+    .imgs .des{
+        display: none;
+    }
+    .text{
+        position: relative;
+        height: 500px;
+    }
+    .text .mopup{
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .text .mopdwon{
+        display: block;
+        position: absolute;
+        top:  350px;
+        right:  0;
+    }
+    #hero .contenar{
+        width: 100%;
+        flex-direction: column-reverse;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        background-color: hsl(256, 26%, 20%);
+        
+    }
+    
+    #hero .context{
+        width: 400px;
+        margin: auto;
+        height: 500px;
+    }
+    #hero .text{
+        width: 100%;
+        text-align: center;
+        padding-top: 100px;
+    }
+    .image .des{
+        display: none;
+    }
+    #diferant{
+        height: 300vh;
+        margin-bottom: 150px;
+    }
+    #diferant div{
+        display: block;
+        text-align: center;
+        margin: auto;
+
+    }
+    #diferant .service{
+        margin: auto;
+    }
+    .sup{
+        width: 0;
+        padding: 0;
+        margin: 0;
+    }
+    .contentt h2{
+        font-size: 60px;
+        padding-top: 120px;
+        padding-bottom: 0px;
+    }
+    .service{
+        display: block ;
+        
+    }
+    .sup{
+        width: 400px;
+        padding-bottom: 150px;
+    }
+    .sup img{
+        padding-bottom: 40px;
+    }
+    .sup h3{
+        font-size: 25px;
+        padding-bottom: 20px
+    }
+    .sup p{
+        line-height: 25px;
+    }
+    .find{
+        height: 400px;
+        
+    }
+    .findtext{
+        padding-top: 100px;
+    }
+    .find{
+        padding: 0px 30px;
+    }
+    .find h2{
+        font-size: 45px;
+        padding-bottom: 30px;
+    }
+    .find .des{
+        display: none;
+    }
+    .find .mop{
+        display: block;
+        position: absolute;
+        
+        top: 0;
+        right: 0;
+    }
+    footer .des{
+        display: none;
+    } 
+       footer .contaner{
+        position: relative;
+        z-index: 1;
+    }
+    footer .mop{
+        display: block;
+        position: absolute;
+
+        top: 0;
+        left: 0;
+    }
+    footer{
+        
+        display: block;
+        height: 1000px;
+    }
+
+    footer .fhead{
+        margin: 0;
+        flex-direction: column;
+    }
+    footer .orl{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+@media (max-width: 951px){
+    .head nav ul{
+        display: none;
+    }
+    .head nav .hum{
+        display: block;
+    }
+    .images .des{
+        display: none;
+    }
+
+    .images .mop{
+        display: block;
+        width: 483px;
+    }
+    .imgs .des{
+        display: none;
+    }
+    .text{
+        position: relative;
+        height: 500px;
+    }
+    .text .mopup{
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .text .mopdwon{
+        display: block;
+        position: absolute;
+        top:  350px;
+        right:  0;
+    }
+    #hero .contenar{
+        width: 100%;
+        flex-direction: column-reverse;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        background-color: hsl(256, 26%, 20%);
+        
+    }
+    
+    #hero .context{
+        width: 400px;
+        margin: auto;
+        height: 500px;
+    }
+    #hero .text{
+        width: 100%;
+        text-align: center;
+        padding-top: 100px;
+    }
+    .image .des{
+        display: none;
+    }
+    #diferant{
+        height: 300vh;
+        margin-bottom: 150px;
+    }
+    #diferant .image{
+        width: 0;
+    }
+    #diferant div{
+        display: block;
+        text-align: center;
+        margin: auto;
+
+    }
+    #diferant .service{
+        margin: auto;
+    }
+    .sup{
+        width: 0;
+        padding: 0;
+        margin: 0;
+    }
+    .contentt h2{
+        font-size: 50px;
+        padding-top: 120px;
+        padding-bottom: 100px;
+    }
+    .service{
+        display: block ;
+        
+    }
+    .sup{
+        width: 400px;
+        padding-bottom: 150px;
+    }
+    .sup img{
+        padding-bottom: 40px;
+    }
+    .sup h3{
+        font-size: 25px;
+        padding-bottom: 20px
+    }
+    .sup p{
+        line-height: 25px;
+    }
+    .find{
+        height: 400px;
+        
+    }
+    .findtext{
+        padding: 100px 0;
+    }
+    .find{
+        padding: 0px 30px;
+    }
+    .find h2{
+        font-size: 45px;
+        padding-bottom: 30px;
+    }
+    .find .des{
+        display: none;
+    }
+    .find .mop{
+        display: block;
+        position: absolute;
+        
+        top: 0;
+        right: 0;
+    }
+    footer .des{
+        display: none;
+    } 
+       footer .contaner{
+        position: relative;
+        z-index: 1;
+    }
+    footer .mop{
+        display: block;
+        position: absolute;
+
+        top: 0;
+        left: 0;
+    }
+    footer{
+        
+        display: block;
+        height: 1000px;
+    }
+
+    footer .fhead{
+        margin: 0;
+        flex-direction: column;
+        line-height: 55px;
+    }
+    .fhead h2{
+        font-size: 25px;
+    }
+    footer .orl{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
